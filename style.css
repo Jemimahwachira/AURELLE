@@ -1,0 +1,103 @@
+*{
+    box-sizing:border-box; 
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;  
+    
+}
+.section-1 {
+    background:linear-gradient(to right, #ff7e5f, #feb47b);
+    color:white;
+    padding:20px;
+
+
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.brand{
+    font-size:50px;
+    font-weight:bold;
+    color:#ff2d95;
+}
+.links{
+    gap:20px;
+    justify-content:space-between;
+    display:flex;
+    color: red;
+
+}
+.luxury{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    margin-top:50px;
+    
+
+}
+.meets{
+    font-size:50px;   
+}
+button{
+    background-color:#ff2d95;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:20px;
+}
+.images-section {
+    display: flex;
+    justify-content: space-around; /* or space-between */
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; /* allows wrapping on small screens */
+    padding: 20px 0;
+}
+
+.image-card {
+    text-align: center;
+    flex: 1 1 250px; /* flexible: min width 250px, grows if more space */
+    max-width: 300px; /* keeps the card from getting too wide */
+}
+
+.image-card img {
+    width: auto; /* image fills the card width */
+    height: 350px; /* maintains aspect ratio */
+    border-radius: 20px; /* smooth rounded corners */
+    object-fit: cover; /* ensures image doesn’t stretch */
+}
+.vibrant{
+    color:#e7afcb;
+}
+h2{
+    color: rgb(255, 255, 254);
+    font-size:30px;
+}
+.section-2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#ff2d95;
+}
+.section-3{
+    background:linear-gradient(to right, #ff7e5f, #feb47b);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+.about{
+    font-size:20px;
+    color:rgb(255, 255, 255);
+}
+h1{
+    font-size:40px;
+    color:white
+}
